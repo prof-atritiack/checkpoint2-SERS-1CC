@@ -4,6 +4,7 @@
 
 ## ORIENTAÇÕES GERAIS:
 - Os desafios devem ser desenvolvidos no **TinkerCAD**.
+- Utilize os códigos-base para Arduino que estão disponíveis neste repositório.
 - A atividade pode ser realizada em grupos, utilizando os mesmos grupos do Challenge.
 - Após a conclusão dos circuitos, um integrante do grupo deve gerar os **quatro links compartilháveis** do TinkerCAD e submetê-los na plataforma junto com um arquivo **.txt** contendo o nome completo de todos os integrantes.
 - **Apenas um aluno por grupo deve enviar os links e o arquivo .txt.**
