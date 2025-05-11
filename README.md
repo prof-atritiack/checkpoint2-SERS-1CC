@@ -1,6 +1,7 @@
 
 # CHECKPOINT 02 - SOLUÇÕES EM ENERGIAS RENOVÁVEIS E SUSTENTÁVEIS
 **Turmas:** 1CCPF, 1CCPG, 1CCPO, 1CCR, 1CCA
+**Professor:** André Tritiack
 
 ## ORIENTAÇÕES GERAIS:
 - Os desafios devem ser desenvolvidos no **TinkerCAD**.
