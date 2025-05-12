@@ -18,24 +18,27 @@
 **Situação-problema:**  
 Uma empresa de energia solar deseja monitorar a eficiência de dois conjuntos de painéis solares: um conjunto com três painéis conectados em série e outro com três painéis conectados em paralelo. O objetivo é identificar qual configuração está gerando maior tensão e acionar LEDs indicadores para indicar a associação mais eficiente.  
 
+**Circuito de referência no TinkerCAD**
+https://www.tinkercad.com/things/8Tl2elwnFSP-exemplo-exercicio-1-cp2?sharecode=CrTlfmVw8hsl4jWvjr_TnpW_9Ax6Chn_OExtOJPU3uA
+
 **Materiais Requeridos:**
 - 6 Mini Painéis Solares (5V cada)
 - Arduino UNO
-- 6 Resistores de 1kΩ
-- LED Verde (Indica série mais eficiente)
-- LED Vermelho (Indica paralelo mais eficiente)
+- 3 Resistores de 1kΩ
 - 2 Resistores de 220Ω
-- Protoboard
-- Fios de conexão
+- LED Verde (indica que o conjunto Série é o mais eficiente)
+- LED Vermelho (indica que o conjunto Paralelo é o mais eficiente)
+- Protoboard (Placa de circuito)
 
 **Instruções:**
 1. Monte três painéis solares em série e outros três em paralelo.
-2. Crie um divisor de tensão para cada associação, conectando-os aos pinos A0 e A1.
-3. Realize a leitura da tensão de cada associação.
-4. Acenda o LED Verde caso a tensão em série seja maior que a em paralelo.
-5. Acenda o LED Vermelho caso a tensão em paralelo seja maior que a em série.
-6. Exiba as leituras no Monitor Serial a cada 3 segundos.
-
+2. No conjunto Paralelo utilize um divisor de tensão com três resistores de 1K, conectando-o ao pino A0 do Arduino.
+3. Conecte o conjunto Série ao pino A1 do Arduino.
+4. Realize a leitura da tensão de cada associação.
+5. Acenda o LED Verde caso a tensão em série seja maior que a em paralelo.
+6. Acenda o LED Vermelho caso a tensão em paralelo seja maior que a em série.
+7. Exiba as leituras no Monitor Serial a cada 3 segundos.
+   
 ---
 
 ## EXERCÍCIO 2: SISTEMA DE DISTRIBUIÇÃO COM FONTES DC, RELÉS E LEDS - GERENCIAMENTO DE CARGA SOLAR
@@ -44,42 +47,42 @@ Uma empresa de energia solar deseja monitorar a eficiência de dois conjuntos de
 Um sistema de gerenciamento de carga solar utiliza duas fontes DC ajustáveis para alimentar diferentes consumidores. O objetivo é monitorar a tensão de ambas as fontes e ativar relés para direcionar a energia, utilizando LEDs para indicar qual fonte está fornecendo mais energia.  
 
 **Materiais Requeridos:**
-- 2 Fontes DC Ajustáveis (0-12V)
-- Arduino UNO
-- 2 Relés
-- LED Amarelo (Indica fonte 1 ativa)
-- LED Azul (Indica fonte 2 ativa)
-- 2 Resistores de 220Ω
-- Protoboard
-- Fios de conexão
+- 02 Fontes DC Ajustáveis (0-30V)
+- 01 Arduino UNO
+- 02 Relés SPDT 5V
+- 01 LED Amarelo (indica fonte 1 ativa)
+- 01 LED Azul (indica fonte 2 ativa)
+- 02 Resistores de 220Ω para os LEDs
+- 01 Protoboard
 
 **Instruções:**
-1. Configure as duas fontes DC com tensões distintas.
-2. Conecte os LEDs Amarelo e Azul aos relés.
-3. Verifique a tensão de cada fonte (A0 e A1) e acione o relé correspondente à fonte de maior tensão.
-4. Exiba as leituras no Monitor Serial a cada 5 segundos.
+1. Configure as duas fontes DC com tensões distintas, acima de 12V.
+2. Utilize divisores de tensão com resistores para limitar a tensão dos pinos analógicos A0 e A1 para até 5V. 
+3. Conecte os LEDs Amarelo e Azul aos contatos dos relés.
+4. Ajuste a tensão de cada fonte (A0 e A1) de forma a acionar o relé correspondente à fonte de maior tensão.
+5. Exiba as leituras no Monitor Serial a cada 5 segundos.
 
 ---
 
 ## EXERCÍCIO 3: SISTEMA SOLAR COM DISSIPAÇÃO DE ENERGIA E LEDS - PROTEÇÃO CONTRA SOBRECARGA
 
 **Situação-problema:**  
-Uma instalação solar utiliza três painéis solares em série para alimentar um sistema crítico. Quando a tensão ultrapassa um limite seguro, um resistor de dissipação deve ser ativado. LEDs indicam o estado do sistema.  
+Uma instalação solar utiliza três painéis solares em série para alimentar um sistema crítico. Quando a tensão ultrapassar um limite seguro, um resistor de dissipação deve ser ativado. LEDs indicam o estado do sistema.  
 
 **Materiais Requeridos:**
-- 3 Mini Painéis Solares (5V cada)
-- 1 Fonte DC Ajustável
-- Arduino UNO
-- Resistor de 10Ω
-- LED Verde (Sistema estável)
-- LED Vermelho (Sobrecarga detectada)
-- 2 Resistores de 220Ω
+- 03 Mini Painéis Solares (5V cada)
+- 01 Fonte DC Ajustável
+- 01 Arduino UNO
+- 01 Relé de 5V SPDT
+- 01 Resistor de 10Ω
+- 01 LED Verde (Sistema estável)
+- 01 LED Vermelho (Sobrecarga detectada)
+- 02  Resistores de 220Ω
 - Protoboard
-- Fios de conexão
 
 **Instruções:**
-1. Conecte os três painéis em série e monitore a tensão total.
-2. Ative o resistor de dissipação caso a tensão ultrapasse 12V.
+1. Conecte os três painéis em série e monitore a tensão total. Utilize um divisor de tensão, semelhante ao exercício 1.
+2. Ative o relé com o resistor de dissipação caso a tensão ultrapasse 12V.
 3. Acenda o LED Verde se a tensão estiver abaixo de 10V.
 4. Acenda o LED Vermelho se a tensão ultrapassar 12V.
 5. Exiba as leituras no Monitor Serial a cada 2 segundos.
