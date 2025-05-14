@@ -49,12 +49,12 @@ Um sistema solar composto por seis painéis solares conectados em série está s
 https://www.tinkercad.com/things/5rEtXyw782l-exercicio-03-cp2-sers?sharecode=Fss_VIDfZxorUf_0ekcgNKKo5P-0hjcdZ8F5OXhsKLM
 
 **Instruções:**
-3. Realize a leitura da tensão no pino A0.
-4. A lógica de controle dos LEDs será:
+1. Realize a leitura da tensão no pino A0.
+2. A lógica de controle dos LEDs será:
    - LED Verde aceso: Tensão menor que 24V.
    - LED Amarelo aceso: Tensão entre 24V e 27V.
    - LED Vermelho aceso: Tensão igual ou superior a 27V.
-5. Exiba os valores de tensão e o estado do sistema no Monitor Serial a cada 2 segundos.
+3. Exiba os valores de tensão e o estado do sistema no Monitor Serial a cada 2 segundos.
 
 ---
 
