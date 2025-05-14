@@ -67,7 +67,6 @@ O sistema solar composto por seis painéis solares conectados em série deve ser
 
 https://www.tinkercad.com/things/f3dkwoZx8Ne-exercicio-04-cp2-sers?sharecode=eoF1dQK1F1DNoEKuqdO2XMNgoquoG7DjkIHG26KZut4
 
-A DEFINIR
 
 **Instruções:**
 1. Realize a leitura da tensão no pino A0.
