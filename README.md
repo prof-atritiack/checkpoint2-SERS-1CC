@@ -11,7 +11,8 @@
 **Situação-problema:**  
 Uma empresa de energia solar deseja monitorar a eficiência de dois conjuntos de painéis solares: um conjunto com três painéis conectados em série e outro com três painéis conectados em paralelo. O objetivo é identificar qual configuração está gerando maior tensão e acionar LEDs indicadores para indicar a associação mais eficiente.  
 
-**Circuito de referência no TinkerCAD**  
+**Circuito de referência no TinkerCAD** 
+
 https://www.tinkercad.com/things/8Tl2elwnFSP-exemplo-exercicio-1-cp2?sharecode=CrTlfmVw8hsl4jWvjr_TnpW_9Ax6Chn_OExtOJPU3uA
 
 **Instruções:**
@@ -28,6 +29,7 @@ https://www.tinkercad.com/things/8Tl2elwnFSP-exemplo-exercicio-1-cp2?sharecode=C
 Um sistema de gerenciamento de carga solar utiliza uma fonte DC ajustável e uma associação série de paineis solares para alimentar diferentes consumidores. O objetivo é monitorar a tensão de ambas as fontes e ativar relés para direcionar a energia, utilizando LEDs para indicar qual fonte está fornecendo mais energia.  
 
 **Circuito de referência no TinkerCAD**  
+
 https://www.tinkercad.com/things/691KNreLDVZ-exercicio-02-cp2-sers?sharecode=WooQllFmv95WKWaD6GJKxbmQSFL4ScWhRM7PyyRtWLA
 
 **Instruções:**
@@ -43,6 +45,7 @@ https://www.tinkercad.com/things/691KNreLDVZ-exercicio-02-cp2-sers?sharecode=Woo
 Um sistema solar composto por seis painéis solares conectados em série está sendo monitorado para verificar possíveis condições de sobrecarga. O objetivo é implementar um sistema com três LEDs indicadores que sinalizam o estado do sistema: condições normais, alerta de sobrecarga e sobrecarga máxima. Os LEDs devem indicar visualmente a condição do sistema com base nos valores de tensão medidos.
 
 **Circuito de referência no TinkerCAD**  
+
 https://www.tinkercad.com/things/5rEtXyw782l-exercicio-03-cp2-sers?sharecode=Fss_VIDfZxorUf_0ekcgNKKo5P-0hjcdZ8F5OXhsKLM
 
 **Instruções:**
@@ -61,6 +64,7 @@ https://www.tinkercad.com/things/5rEtXyw782l-exercicio-03-cp2-sers?sharecode=Fss
 O sistema solar composto por seis painéis solares conectados em série deve ser monitorado para garantir a visualização em tempo real da tensão e do estado (`NORMAL`, `ALERTA`, `SOBRECARGA`). O objetivo é exibir esses valores em um display LCD 16x2, atualizando as informações a cada 2 segundos.
 
 **Circuito de referência no TinkerCAD**
+
 https://www.tinkercad.com/things/f3dkwoZx8Ne-exercicio-04-cp2-sers?sharecode=eoF1dQK1F1DNoEKuqdO2XMNgoquoG7DjkIHG26KZut4
 
 A DEFINIR
