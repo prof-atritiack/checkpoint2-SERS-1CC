@@ -7,8 +7,8 @@
  * Descrição: Monitoramento de Tensão em Série e Paralelo
  ********************************************************************/
 
-#define LED_SERIE 2
-#define LED_PARALELO 3
+#define LED_SERIE 7
+#define LED_PARALELO 8
 #define PINO_SERIE A0
 #define PINO_PARALELO A1
 
