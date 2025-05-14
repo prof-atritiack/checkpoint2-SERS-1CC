@@ -43,8 +43,7 @@ https://www.tinkercad.com/things/691KNreLDVZ-exercicio-02-cp2-sers?sharecode=Woo
 Um sistema solar composto por seis painéis solares conectados em série está sendo monitorado para verificar possíveis condições de sobrecarga. O objetivo é implementar um sistema com três LEDs indicadores que sinalizam o estado do sistema: condições normais, alerta de sobrecarga e sobrecarga máxima. Os LEDs devem indicar visualmente a condição do sistema com base nos valores de tensão medidos.
 
 **Circuito de referência no TinkerCAD**  
-
-A DEFINIR
+https://www.tinkercad.com/things/5rEtXyw782l-exercicio-03-cp2-sers?sharecode=Fss_VIDfZxorUf_0ekcgNKKo5P-0hjcdZ8F5OXhsKLM
 
 **Instruções:**
 3. Realize a leitura da tensão no pino A0.
@@ -61,7 +60,8 @@ A DEFINIR
 **Situação-problema:**  
 O sistema solar composto por seis painéis solares conectados em série deve ser monitorado para garantir a visualização em tempo real da tensão e do estado (`NORMAL`, `ALERTA`, `SOBRECARGA`). O objetivo é exibir esses valores em um display LCD 16x2, atualizando as informações a cada 2 segundos.
 
-**Circuito de referência no TinkerCAD**  
+**Circuito de referência no TinkerCAD**
+https://www.tinkercad.com/things/f3dkwoZx8Ne-exercicio-04-cp2-sers?sharecode=eoF1dQK1F1DNoEKuqdO2XMNgoquoG7DjkIHG26KZut4
 
 A DEFINIR
 
