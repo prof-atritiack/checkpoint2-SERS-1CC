@@ -7,17 +7,13 @@
  * Descrição: Sistema de Distribuição com Relés e LEDs
  ********************************************************************/
 
-#define LED_FONTE1 4
-#define LED_FONTE2 5
-#define RELE1 6
-#define RELE2 7
+#define RELE1 7
+#define RELE2 8
 #define PINO_FONTE1 A0
 #define PINO_FONTE2 A1
 
 void setup() {
   Serial.begin(9600);
-  pinMode(LED_FONTE1, OUTPUT);
-  pinMode(LED_FONTE2, OUTPUT);
   pinMode(RELE1, OUTPUT);
   pinMode(RELE2, OUTPUT);
 }
