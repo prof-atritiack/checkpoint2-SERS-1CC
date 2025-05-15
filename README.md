@@ -4,6 +4,14 @@
 **Autor:** André Tritiack  
 **Data:** 05/2025  
 
+## INSTRUÇÕES
+
+1. Gerar os links compartilháveis de cada exercício no TinkerCAD.
+   
+2. Anexar os quatro links + um arquivo .txt com o nome dos integrantes.
+   
+3. APENAS UM INTEGRANTE DO GRUPO REALIZA A ENTREGA NO TEAMS.
+
 ---
 
 ## EXERCÍCIO 1: MONITORAMENTO DE TENSÃO EM SÉRIE E PARALELO - SISTEMA DE EFICIÊNCIA SOLAR
